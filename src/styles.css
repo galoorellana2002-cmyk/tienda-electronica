@@ -817,10 +817,16 @@ textarea {
   flex: none;
 }
 
+.category-tile > span {
+  min-width: 0;
+}
+
 .category-tile strong {
   display: block;
   font-size: 15px;
   line-height: 1.2;
+  overflow-wrap: anywhere;
+  hyphens: auto;
 }
 
 .category-tile small {
